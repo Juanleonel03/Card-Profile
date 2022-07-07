@@ -6,7 +6,7 @@
     --border: #ddd;
     --shadow: rgba(0 0 0 / 0.1);
     --font-name: 1.1rem;
-    --font-name-des: 0.9rem;
+    --font-name-des: 1rem;
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
@@ -63,6 +63,7 @@ body{
 .card__name-des{
     color: rgb(163, 163, 163);
     margin: 8px;
+    font-size: var(--font-name-des);
 }
 
 .card__description{
